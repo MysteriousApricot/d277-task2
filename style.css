@@ -91,3 +91,12 @@ form {
 input, textarea {
     margin-right: 20px;
 }
+
+.absolute {
+    height: 30px;
+    width: 330px;
+}
+
+.absolute p {
+    margin: 0;
+}
