@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../style.css">
+    <script src="../contact.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Contact Us Here!</h1>
+        <nav>
+            <ul class="one"> 
+                <li class="two"><a href="../index.html">Home</a></li>
+                <li class="two"><a href="../public/portland.html">Portland</a></li>
+                <li class="two"><a href="../public/eugene.html">Eugene</a></li>
+                <li class="two"><a href="../public/salem.html">Salem</a></li>
+            </ul>
+        </nav>
+    </header>
+   
+    <form id="emailform">
+        <label for="question">Ask a Question:</label>
+        <textarea id="question" placeholder="Enter text here"></textarea>
+
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName"  placeholder="Enter first name here" required>
+
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName"  placeholder="Enter last name here" required>
+
+        <label for="email1">Email:</label>
+        <input type="email" id="email1" placeholder="Enter email address here" required>
+
+        <label for="email2">Confirm Email:</label>
+        <input type="email" id="email2" placeholder="Confirm email address here" required>
+
+        <p id="message"></p>
+
+        <input type="submit" value="Submit">
+    </form>    
+    
+    <h2 id="facebook">Don't forget to check out our various community pages on <a class="special" href="https://www.facebook.com/">Facebook</a>!</h2>
+</body>
+</html>

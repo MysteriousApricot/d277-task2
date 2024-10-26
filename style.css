@@ -1,0 +1,93 @@
+body {
+    font-family: "Poppins", sans-serif;
+    color: #347928;
+}
+
+header {
+    text-align: center;
+}
+
+.one {
+    background-color: #347928;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.two {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.three {
+    width: 500px;
+    padding-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #FCCD2A;
+}
+
+img {
+    border-radius: 20%;
+}
+
+#long {
+    border-radius: 30%;
+}
+
+footer {
+    text-align: center;
+    background-color: #347928;
+    color: white;
+}
+
+section {
+    width: 70%;
+    float: left;
+    text-align: center;
+    overflow-y: auto;
+    height: 600px;
+    background-color: white;
+}
+
+table {
+    position: relative;
+    margin: 0px auto;
+}
+
+td, th {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+aside {
+    width: 30%;
+    float: right;
+    text-align: center;
+    overflow-y: auto;
+    height: 600px;
+    background-color: white;
+}
+
+.special {
+    text-decoration: underline;
+    color: #FCCD2A;
+}
+
+form {
+    text-align: center;
+    padding: 20px;
+}
+
+#facebook {
+    text-align: center;
+}
+
+input, textarea {
+    margin-right: 20px;
+}
